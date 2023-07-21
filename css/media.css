@@ -1,0 +1,523 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    header {
+        padding: 0 10px;
+    }
+    .s_submit[data-bs-popper] {
+        top: 0;
+        left: 0px;
+        padding: 8px 12px;
+    }
+    .s_input {
+        border: none;
+        padding: 4px 0;
+    }
+    .s_submit{
+        width: 100%;
+        height: 50px;
+    }
+    .menu ul li {
+        padding: 0;
+    }
+    .menu ul li a{
+        padding: 5px 0 ;
+    }
+/*Carousel*/
+    .single_carousel {
+        padding: 40px 0;
+    }
+    .single_carousel h2 {
+        font-size: 24px;
+    }
+    .single_carousel p {
+        font-size: 14px;
+        padding: 24px 0;
+        line-height: 1.5;
+    }
+
+/*Welcome Section*/
+    .welcome {
+        margin-bottom: 50px;
+    }
+    .c_h1 {
+        font-size: 24px;
+        margin: 0;
+    }
+    /*About Section*/
+    .about_content h1 {
+        margin-top: 15px;
+    }
+    /*Portfolio Start*/
+    .portfolio {
+        padding-bottom: 40px;
+    }
+    .nav_sty {
+        padding: 5px;
+    }
+    .p_menu {
+        margin: 0 auto;
+    }
+    /*Chose Section Start*/
+    .chose {
+        padding-bottom: 40px;
+    }
+         /* who works with us section starts */
+
+      /* who card design starts */
+      .who{
+        padding-bottom: 60px;
+      }
+
+      .cardimg {
+        padding: 90px 0;
+        
+    }
+
+.socialContainer ul{
+    padding: 2px 8px;
+    margin-right: 255px;
+}
+.cardText h1 {
+    margin-left: 25px;
+    font-size: 18px;
+}
+.cardText p{
+    margin-left: 25px;
+}
+ /* who card design ends */
+ /* who works with us section ends */
+
+
+
+  /* buy section starts */
+  .leftText h1 {
+    font-size: 15px;
+ }
+ .rightText {
+    margin: 4px 0 0 4px;
+}
+.buyBtn {
+    margin: 8px 0 0 64px !important;
+    padding: 8px 17px !important;
+}
+ /* buy section ends */
+
+
+
+ 
+/*testimonial start*/
+
+.testimnl {
+    padding: 0 0 60px;
+}
+
+.cmplctd-tstmnl{
+    padding: 20px 10px;
+}
+
+.tstmnl-text h1 {
+    margin-top: 10px;
+}
+
+.tstmnl-text h2{
+    margin: 10px 0;
+}
+
+.tstmnl-text p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.tstmnl-p1{
+    margin: 10px 0;
+    
+}
+/*testimonial end*/
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .s_submit[data-bs-popper] {
+        top: 0;
+        left: 0px;
+        padding: 10px 15px;
+    }
+    .menu ul li {
+        padding: 0;
+    }
+/*Carousel*/
+    .single_carousel {
+        padding: 66px 0;
+    }
+    .single_carousel h2 {
+        font-size: 36px;
+    }
+    .single_carousel p {
+        padding: 24px 0;
+    }
+/*Welcome Section*/
+    .welcome {
+        margin-bottom: 70px;
+    }
+    .c_h1 {
+        font-size: 24px;
+        margin: 19px 0;
+    }
+    /*About Section*/
+    .about_content h1 {
+        margin-top: 20px;
+    }
+    /*Portfolio Start*/
+    .nav_sty {
+        padding: 10px;
+    }
+    .p_menu {
+        margin: 0 auto;
+    }
+    /* who works with us section starts */
+          /* who card design starts */
+          .who{
+            padding-bottom: 60px;
+          }
+    .whoCard{}
+    
+    .cardimg{
+        padding: 95px 0;
+    }
+    .socialContainer ul{
+        padding: 0 7px;
+        margin-right: 209px;
+    }
+    .cardText h1 {
+        margin-left: 12px;
+        font-size: 18px;
+    }
+    .cardText p{
+        margin-left: 12px;
+    }
+     /* who card design ends */
+     /* who works with us section ends */
+
+
+      /* pricing section starts */
+ .pricing {
+    padding-bottom: 60px;
+}
+.priceCard {
+   
+    margin-left: 7px;
+}
+ /* pricing section ends */
+
+  /* buy now section starts */
+  .leftText h1 {
+    font-size: 16px;
+ }
+ .rightText {
+    margin-left: -85px;
+}
+ .buyBtn {
+    padding: 5px 12px !important;
+ }
+ /* buy now section ends */
+
+
+
+ /*testimonial start*/
+
+.testimnl {
+    padding: 0 0 60px;
+}
+
+.tstmnl-text h1 {
+    margin-top: 10px;
+}
+
+.tstmnl-text h2{
+    margin: 10px 0;
+}
+
+.tstmnl-text p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.tstmnl-p1{
+    margin: 10px 0;
+    
+}
+
+.cstm-tstmnl-crsl {
+    bottom: 450px;
+    left: 500px;
+}
+
+.cstm-carousel-control-prev {
+    left: 444px;
+    bottom: 710px;
+}
+
+.cstm-carousel-control-next {
+    right: -5px;
+    top: 710px;
+}
+/*testimonial end*/
+
+
+/* contact section starts */
+.contact{
+    margin-bottom: 60px;
+    
+}
+ .contactH1 {
+    margin: -18px 0 60px 142px;
+}
+/* contact section ends */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .s_submit[data-bs-popper] {
+        top: 0;
+        left: 0px;
+        padding: 10px 15px;
+    }
+    .menu ul li {
+        padding: 0;
+    }
+    /*About Section*/
+    .about_us {
+        margin-bottom: 60px;
+    }
+    .about_content h1 {
+        margin-top: 30px;
+    }
+/*Portfolio Start*/
+    .p_menu {
+        margin: 20px auto 20px;
+    }
+/*Chose Start*/
+    .chose {
+        padding-bottom: 60px;
+    }
+    /*Pricing Section Start*/
+    .pricing {
+        margin-bottom: 60px;
+    }
+    .single_price {
+        margin-top: 40px;
+    }
+    /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header starts  */
+    .cNav {
+        padding: 20px 0;
+    }
+    /* header ends  */
+
+
+    /* slider starts here */
+    .cItems {
+        margin: 180px 0 180px;
+    }
+   
+    .cHeader{
+        font-size: 47px;
+    }
+ 
+    /* slider ends here */
+
+      /* service section starts */
+      .servicePara p {
+        margin-top: 35px;
+        line-height: 22px;
+    }
+
+    .cardPara {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    /* service section ends */
+
+
+     /* about section starts */
+     .aboutImage {
+        margin-top: 35px;
+    }
+    .aboutPara {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    /* about section ends */
+
+      /* recent work section starts from here */
+    /* image section starts */
+.parentsNavTab{
+    margin-top: 50px;
+}
+    /* recent work section ends here */
+
+
+    /* nipro section starts from here */
+    .nipIcon {
+        
+        margin-right: 65px;
+    }
+    .niproH2 {
+        word-spacing: 2px;
+    }
+    /* nipro section ends here */
+
+
+
+
+    /* who works with us section starts */
+     /* who card design starts */
+
+    
+.cardimg{
+    padding: 110px 0;
+}
+.socialContainer ul{
+    padding: 10px 8px;
+    margin-right: 298px;
+}
+
+
+.socialContainer ul li a{
+    font-size: 22px; 
+}
+
+
+
+.cardText h1{
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+.cardText p{
+    margin-left: 30px;
+}
+/* who card design ends */
+/* who works whith us section ends */
+
+
+
+/* price section starts */
+.priceDet h1 {
+    margin: -10px 0 0 48px;
+}
+.priceDet h2 {
+    margin: 40px 0 0 65px;
+}
+.priceList {
+    margin-left: 35px;
+}
+.signupBtn {
+    margin: 30px 0 0 65px;
+}
+/* price section ends */
+
+
+/* buy now section starts */
+
+.rightText {
+    margin-left: -60px;
+}
+/* buy now section ends */
+
+
+
+/*testimonial start*/
+
+.testimnl {
+    padding: 0 0 80px;
+}
+
+.tstmnl-text h1 {
+    margin-top: 10px;
+}
+
+.tstmnl-text h2{
+    margin: 10px 0;
+}
+
+.tstmnl-text p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.tstmnl-p1{
+    margin: 10px 0;
+    
+}
+
+.cstm-tstmnl-crsl {
+    bottom: 450px;
+    left: 665px;
+}
+
+.cstm-carousel-control-prev {
+    left: 597px;
+    bottom: 795px;
+}
+
+.cstm-carousel-control-next {
+    right: -5px;
+    top: 824px;
+}
+/*testimonial end*/
+
+
+/* contact section starts */
+.contactH1 {
+    margin: -18px 0 60px 222px;
+}
+/* contact section ends */
+
+
+/* agency starts */
+.agencyPara {
+    padding: 0 194px;
+}
+.socialSite {
+    margin-left: -230px;
+}
+
+.copiright {
+    
+    padding-right: 82px;
+}
+.supports ul li {
+    margin-right: 10px;
+}
+/* ends */
+
+
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .about_content p {
+        margin-top: 35px;
+    }
+}
+
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .about_content h1 {
+        font-size: 40px;
+    }
+    .about_content p {
+        margin-top: 25px;
+        font-size: 18px;
+    }
+}
